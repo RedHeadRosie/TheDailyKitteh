@@ -1,0 +1,18 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-image: linear-gradient(to right, #d7f9f8, #d6e6ff);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
