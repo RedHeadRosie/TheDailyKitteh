@@ -1,5 +1,6 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font-size: 16px;
+  font-family: Verdana;
 }
 
 html {
@@ -7,12 +8,87 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 10;
   min-height: 100%;
   background-image: linear-gradient(to right, #d7f9f8, #d6e6ff);
+  border-style: solid 0.3em;
+  border-color: blue;
 }
 
 header {
   display: flex;
+  font-size: 40px;
+  color: dimgrey;
+  font-family: Georgia, Times, Serif;
   justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: dimgrey;
+}
+
+h2 {
+  font-size: 20px;
+  color: dimgrey;
+}
+
+h3 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h4 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-decoration: underline;
+  background-color: aqua;
+  color: white;
+  font-size: 20px;
+}
+
+.box1 {
+  margin: 5%;
+  display: flex;
+}
+
+.box2 {
+  border-style: solid;
+  border-color: #039be5;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-decoration: underline;
+  background-color: grey;
+  color: black;
 }
